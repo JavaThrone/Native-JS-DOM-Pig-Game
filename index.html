@@ -28,14 +28,27 @@
                     <div class="player-current-score" id="current-1">0</div>
                 </div>
             </div>
-            
+
+            <div class="input-score">
+                <form>
+                    <div style="text-align: center;">
+                        <label id="text-score" for="score">Input require scour to win,<br/> current scour is 100</label>
+                    </div>
+                    <div style="text-align: center; margin-bottom: 4px;">
+                        <input name="score" id="score" type="text" />
+                    </div>
+                </form>
+            </div>
+
             <button class="btn-new" id="start-new-game"><i class="ion-ios-plus-outline"></i>New game</button>
             <button class="btn-roll" id="roll-dice"><i class="ion-ios-loop"></i>Roll dice</button>
             <button class="btn-hold" id="hold"><i class="ion-ios-download-outline"></i>Hold</button>
             
-            <img src="dice-1.png" alt="Dice" class="dice" id="img-dice">
+            <img src="dice-1.png" alt="Dice" class="dice" id="img-first-dice">
+            <img src="dice-1.png" alt="Dice" class="dice" id="img-second-dice">
         </div>
-        
+
+
         <script src="app.js"></script>
     </body>
 </html>
